@@ -1,0 +1,9 @@
+{
+    "name": "C Dev Container",
+    "dockerFile": "../Dockerfile",
+    "runArgs": [ "-u", "root" ],
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": ["ms-vscode.cpptools"]
+}
